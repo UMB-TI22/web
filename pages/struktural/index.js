@@ -10,7 +10,7 @@ import {faHouse} from '@fortawesome/free-solid-svg-icons'
 export default function Struktural() {
   return (
     <div>
-      <Container minW='container.md'>
+      <Container minW={['full', 'container.md']}>
       <Navbar/>
         <Heading size='lg' marginTop='50px' color='gray.700' marginBottom='10px'>
         Badan Pengurus Harian (BPH) 📌
